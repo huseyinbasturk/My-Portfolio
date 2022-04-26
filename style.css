@@ -226,6 +226,10 @@ img {
   font-weight: 500;
   border-radius: .5rem;
   transition: .3s;
+  font-family: 'Poppins', sans-serif;
+}
+.button a{
+  color:#fff;
 }
 
 .button:hover {
@@ -324,11 +328,14 @@ img {
 .project__img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: .5rem;
-  overflow: hidden;
+  overflow:hidden;
 }
-
+.project__img h3 {
+  text-align: center;
+}
 .project__img img {
   transition: 1s;
+  max-height: fit-content;
 }
 
 .project__img img:hover {
