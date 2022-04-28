@@ -13,7 +13,7 @@
     </head>
     <body>
         <!--===== HEADER =====-->
-        <header class="l-header">
+        <header class="header">
             <nav class="nav bd-grid">
                 <section>
                     <a href="#home" class="nav__logo"><img class="logo" src="images/logo.gif" alt="logo"/></a>
@@ -35,16 +35,16 @@
             </nav>
         </header>
 
-        <main class="l-main">
+        <main class="main">
             <!--===== HOME =====-->
             <section class="home bd-flex" id="home">
                 <section class="home__data">
-                    <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Hüseyin</span><br>Software Tester,<br>Developer</h1>
+                    <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Hüseyin</span><br>Software Tester,<br>Web Developer</h1>
                     <a href="https://drive.google.com/drive/u/0/folders/1yREeSLf799WZ7pBjvV9qc2VVR3LQea5s" target="_blank"><button class="button">Download CV</button></a>
                 </section>
 
-               <section id="photo-container" class="photo-container"> 
-                    <img id="my-photo" src="images/my-photo.png" alt="photo">
+               <section id="home__img" class="home__img"> 
+                    <img id="home__photo"class="home__photo" src="images/my-photo.png" alt="photo">
                 </section>
             </section>
 
@@ -60,7 +60,7 @@
                     <article>
                         <h2 class="about__subtitle">I'm </h2>
                         <p class="about__text">detail-oriented Software Test Engineer with clear writing and verbal communication skills, as well as 
-                            the ability to manage multiple tasks and learn new technologies and looking for an innovative and challenging work environment to develop my skills as well as contribute to the team.</p>           
+                            the ability to manage multiple tasks and learn new technologies. I'm looking for an innovative and challenging work environment to develop my skills as well as contribute to the team.</p>           
                     </article>                                   
                 </section>
             </section>
@@ -71,30 +71,30 @@
 
                 <section class="skills__container bd-grid">          
                     <section>
-                        <h2 class="skills__subtitle">Technicall Skills</h2>
+                        <h3 class="skills__subtitle">Technicall Skills</h3>
                         <p class="skills__text">I started my journey with testing in IT-world. Since then I always try to learn new tools and technologies</p>
                         <section class="skills__data">
-                            <section class="skills__names"><span class="skills__name">Java</span></section>
+                            <span class="skills__names">Java</span>
                             <span class="skills__bar skills__java"></span>
                             <span class="skills__percentage">75%</span>
                         </section>
                         <section class="skills__data">
-                            <section class="skills__names"><span class="skills__name">Selenium</span> </section>
+                            <span class="skills__names">Selenium</span>
                             <span class="skills__bar skills__selenium"></span>  
                             <span class="skills__percentage">85%</span>
                         </section>
                         <section class="skills__data">
-                            <section class="skills__names"><span class="skills__name">TestNG / JUnit</span></section>
+                            <span class="skills__names">TestNG / JUnit</span>
                             <span class="skills__bar skills__testng_junit"></span>
                             <span class="skills__percentage">80%</span>                           
                         </section>
                         <section class="skills__data">
-                            <section class="skills__names"><span class="skills__name">HTML / CSS</span></section>
+                            <span class="skills__names">HTML / CSS</span>
                             <span class="skills__bar skills__html_css"></span>
                             <span class="skills__percentage">90%</span>
                         </section>
                         <section class="skills__data">
-                            <section class="skills__names"><span class="skills__name">JavaScript</span></section>
+                            <span class="skills__names">JavaScript</span>
                             <span class="skills__bar skills__js"></span>
                             <span class="skills__percentage">60%</span>
                         </section>
@@ -114,7 +114,7 @@
                 <section class="project__container bd-grid">
                     <a href="https://github.com/huseyinbasturk/calculator" target="_blank" class="project__img">
                         <h3>HTML, CSS, JS Implementation</h3>
-                        <img src="images/project1.png" alt="calculator">
+                        <img id="calc" src="images/project1.png" alt="calculator">
                     </a>
                     <a href="https://designbees.ch/" target="_blank" class="project__img">
                         <h3>Software Development</h3>
